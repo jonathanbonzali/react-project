@@ -41,10 +41,10 @@ function addProduct(props) {
 
   const addProduct = (e) => {
     if (!values.image) {
-      if (values.category === defaultSelectValue) {
+      
         setValues({ ...values, error: "Please select an image" });
         return;
-      }
+      
     }
 
     if (values.category === defaultSelectValue) {
