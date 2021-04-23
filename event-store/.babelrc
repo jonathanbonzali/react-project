@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/preset-env",
+          {
+            "targets": {
+            "node": "current"
+              }
+         }
+       ],
+       // add responsile to transpile react and jsx code  into plain javascript
+     "@babel/preset-react"
+   ],
+   "plugins": [
+   "react-hot-loader/babel"
+   ]
+  }

@@ -1,0 +1,61 @@
+.app_menu {
+  background-color: white;
+  border-bottom: 1px solid rgb(246, 246, 246);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.user_profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-image: url("../../assets/user.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.username {
+  font-size: 13px;
+  line-height: 15px;
+  color: #181818;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.useremail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #6f6f6f;
+  letter-spacing: 1px;
+}
+.menu_item,
+.menu_button_signup,
+.menu_button_login {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 5px 20px 5px 20px;
+  height: 35px;
+  color: #000000;
+}
+.menu_button_signup,
+.menu_button_login {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menu_button_login {
+  color: #000000;
+  border: 1px solid black;
+}
+.menu_button_signup {
+  background-color: black !important;
+}
+.menu_button_signup span {
+  color: white;
+}
+
+Link {
+  color: black !important ;
+}

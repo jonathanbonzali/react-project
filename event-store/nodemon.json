@@ -1,0 +1,5 @@
+{
+    "verbose": false,
+    "watch": ["./backend"],
+    "exec": "webpack --mode=development --config webpack.backend.js && node ./dist/api.js"
+  }

@@ -1,0 +1,223 @@
+@media screen and (min-width: 1025px) and (max-width: 1367px) {
+  .page-border-margin-exact {
+    margin-left: 104px !important;
+    margin-right: 104px !important ;
+  }
+  .page-border-margin {
+    margin-left: 128px !important;
+    margin-right: 128px !important ;
+  }
+  .page-border-left {
+    left: 118px;
+  }
+  .page-border-right {
+    right: 118px;
+  }
+}
+
+.About_top_image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(46, 43, 34, 0.6);
+  background-image: url("../assets/photos/abt1.jpg");
+  height: 434px;
+  width: 100%;
+}
+
+.contact_top_image h1,
+.About_top_image h1 {
+  color: #ffffff;
+  font-size: 110px;
+  line-height: 120px;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sn_about_img1 {
+  background-image: url("../assets/photos/deco1_del.jpg");
+}
+.sn_about_img2 {
+  background-image: url("../assets/photos/about_image5.jpeg");
+}
+.sn_about_img3 {
+  background-image: url("../Assets/photos/deco1_del3.jpeg");
+}
+
+.image_holder {
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link_right {
+  right: 0;
+}
+
+.link_right,
+.link-left {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 125px;
+  white-space: nowrap;
+  z-index: 2;
+
+}
+
+.link_right .link_outer {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.link-left .link_outer {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.link_right p,
+.link-left p {
+  transition: color 0.2s ease-out, background-color 0.2s ease-out;
+  white-space: normal;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Monster, sans-serif;
+}
+
+.link_right span,
+.link-left span {
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  font-family: Monster, sans-serif;
+  color: #9e9a94;
+  text-decoration: none;
+}
+.link_right span:hover,
+.link-left span:hover {
+  color: black;
+}
+
+.contact_top_image {
+  background-image: url("../assets/photos/ct1.jpg");
+  height: 400px;
+  width: 100%;
+}
+
+.contact_form input,
+.contact_form textarea {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 0 20px;
+  padding: 13px 25px;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: inherit;
+  color: #bdb5aa;
+  background-color: transparent;
+  border: 1px solid #bdb5aa;
+  border-radius: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out;
+}
+.contact_form button {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  line-height: 3.333em;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  padding: 5px 38px;
+  color: #696359;
+  background-color: transparent;
+  border: 1px solid #bdb5aa;
+  cursor: pointer;
+}
+
+
+#footer {
+  background-color :rgb(246, 246, 246);
+  font-size: 14px;
+  font-weight: normal;
+  padding: 100px 60px;
+ 
+}
+#footer .email {
+  color:black;
+}
+#footer div{
+  margin-bottom:5px;
+}
+#footer  .sub_copyright {
+  padding-top: 2px;
+  color: #8d8b8b;
+}
+#footer .f_logo {
+  position: relative;
+  top: -3px;
+}
+.footer_text{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: black;
+  padding : 10px 0px 10px 0px ;
+}
+#footer .sub_copyright{
+  font-size: 13px;
+}
+#footer .sub_copyright a {
+  color: #d4af37;
+
+ }
+
+ #footer .logo {
+  width: 139px;
+  height: 65px;
+}
+#footer .footer_title{
+  color:black;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+#footer .footer_link div{
+  color:black;
+}

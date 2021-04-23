@@ -1,0 +1,49 @@
+#auth {
+  z-index: 1900;
+  position: fixed; /* Stay in place */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+#auth .content {
+  background-color: #fefefe;
+  position: relative;
+  margin: auto;
+  width: 40%;
+  height: 100%;
+  max-height: 700px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px 0px;
+}
+
+.login_wrapper .header h4 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 26px;
+  text-align: left;
+  color: black;
+}
+
+.login_wrapper .header span,
+#auth .footer {
+  color: rgb(38, 38, 38);
+  cursor: default;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  margin-bottom: 18px;
+  text-size-adjust: 100%;
+  text-align: left;
+}
+
+#auth .footer span {
+  color: #316bff;
+}
+
+.errorMessage {
+  font-weight: normal;
+  line-height: 27px;
+  font-size: 14px;
+}
